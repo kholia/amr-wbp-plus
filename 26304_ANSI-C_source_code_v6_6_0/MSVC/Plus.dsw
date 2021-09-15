@@ -1,0 +1,95 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "Codec"=".\Codec\Codec.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name decoder
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name encoder
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "common"=".\common\common.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "decoder"=".\decoder\decoder.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name lib_amr
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name common
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "encoder"=".\encoder\encoder.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name lib_amr
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name common
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "lib_amr"=".\lib_amr\lib_amr.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+
