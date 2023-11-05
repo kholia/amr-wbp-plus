@@ -1240,7 +1240,7 @@ typedef struct MP4ItemPropertyContainerAtom {
 } MP4ItemPropertyContainerAtom, *MP4ItemPropertyContainerAtomPtr;
 
 typedef struct MP4ItemPropertyAssociationEntryPropertyIndex {
-	u8  essential;
+	u16  essential;
 	u16 property_index;
 } MP4ItemPropertyAssociationEntryPropertyIndex, *MP4ItemPropertyAssociationEntryPropertyIndexPtr;
 
